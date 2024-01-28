@@ -1,0 +1,262 @@
+/* css links*/
+@font-face {
+    font-family:playfairdisplay-bold ;
+    src: url(../fonts/playfair-display/playfairdisplay-bold.otf);
+}
+@font-face{
+font-family:playfairdisplay-regular;
+src: url(../fonts/playfair-display/playfairdisplay-regular.otf);
+} 
+@font-face {
+    font-family: ubuntu-light;
+    src: url(../fonts/ubuntu/ubuntu-light.ttf);
+}
+ /* css link end*/
+ 
+ /* common start*/
+ body{
+    margin:0 auto;
+
+    font-family: 'playfair-display';
+    font-size: 16px;
+    font-weight: 400;
+    color:#626262
+ }
+ /* common end*/
+
+ /*header start*/
+
+ header{ 
+    padding: 30px 0;
+   /* border: 1px solid blue;*/
+
+ }
+
+ .container{
+    margin: 0 auto;
+    width: 90%;
+  /*border: 1px solid blueviolet;*/
+    overflow: hidden;
+
+ }
+ .logo{
+    margin-top: 10px;
+    width:12%;
+    /*border: 1px solid red;*/
+    float:left
+ }
+ .logo a{}
+ .logo a img{
+    width: 100%;
+ }
+
+ .menu{
+    width: 65%;
+   /* border: 1px solid red;*/
+    float: right;
+ }
+ .menu ul{
+    float: right;
+ }
+ .menu ul li{
+    
+    list-style: none;
+    float: left;
+     
+ }
+ .menu ul li a{
+    display: inline-block;    
+    margin: 0 45px;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    transition: .33s linear;
+ }
+ .menu ul li:last-child a{
+     margin-right: 0;
+ }
+ .menu ul li a:hover{
+    border-bottom: 1px solid #626262;
+ }
+ /*header end*/
+
+ /*banner start*/
+
+ .banner{ 
+   padding-bottom: 90px;
+}
+ .b_img{}
+ .b_img img{
+    width: 100%;
+ }
+ /*banner end*/
+ /*getaway start*/
+
+ .getaway{ 
+   padding: 90px  0 ;    
+ }
+ .container2{
+   
+    margin: 0 auto;
+    width: 80%;
+   /* border: 1px solid red;*/
+ }
+ .g_content{
+   
+ }
+ .c_light{
+    margin: 0;
+    font-family: ubuntu-light;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+
+ }
+ .c_title{
+    margin: 20px 0 30px;
+    font-size: 30px;
+    font-weight: 400;
+ }
+ .c_text{
+    margin: 0;
+    line-height: 24px;
+
+ }
+ .m_40{
+    margin-top: 40px;
+ }
+
+ /*getaway end*/
+
+ /*blog1 start*/
+ .blog1{
+   padding: 25px 0 90px;
+ }
+ .b_content{
+   overflow: hidden;
+ }
+
+
+ .b_item{
+   margin-top: 65px;
+   float: left;
+   width: 47%;
+  /* border: 1px solid green;*/
+   box-sizing: border-box;
+ }
+ .b_item:nth-child(even){
+   margin-left: 6%;
+
+ }
+ .mt_30{
+   margin-top: 30px;
+ }
+ /*blog1 end*/
+
+ /*news start*/
+ .news{
+   background-color:#f0f0f0 ;
+   padding: 70px 0;
+ }
+ .signup{
+   text-align: center;
+ }
+ .s_h1{
+   color: #333333;
+   margin-top: 0;
+   margin-bottom: 70px;
+ }
+ .s_form{ 
+   width: 400px;
+   /*border: 5px solid red;*/
+   margin: 0 auto;
+   position:relative;
+ }
+ .s_form input{
+   font-family: playfair-display;
+   font-size: 16px;
+   color: #626262;
+   width: 345px;
+   height: 45px;
+   border: none;
+   border-bottom: 1px solid #626262;
+   background-color:transparent;
+   padding-left: 5px;
+   padding-right: 45px;
+ }
+ .s_form input:focus{
+   outline: 0;
+ }
+ .s_form button{
+   position: absolute;
+   background: transparent;
+   border: none;
+   cursor: pointer;
+   top: 15px;
+   nav-right: 0;
+
+ }
+ .s_form button:focus{
+   outline: 0;
+ }
+ /*news end*/
+ /*blog2 start*/
+ .load{
+   padding: 150px 0 60px;
+   text-align: center;
+ }
+  
+ .load button{
+  font-family: playfair-display;
+  font-size: 16px;
+  font-weight: 400;
+   width: 165px;
+   height: 60px;
+   border-radius: 0;
+   border:2px solid #626262;
+   background-color: white;}
+ /*blog2 end*/
+ /*footer start*/
+
+ footer{ 
+
+ }
+ .ft100{
+  font-family: playfair-display;
+  overflow: hidden;
+  background-color: #f0f0f0;
+  height: 100px;
+  width: 100%;
+ }
+ .pages{
+  float: left;
+ }
+ .pages ul{}
+ .pages ul li{
+  float: left;
+  margin: 40px 15px;
+  list-style: none;
+ }
+ .pages ul li a{
+  color:#404040 ;
+  text-decoration: none;
+ }
+
+ .social{
+  float: right;
+ }
+ .social ul{
+
+ }
+ .social ul li{
+  float: left;
+  margin: 40px 15px;
+  list-style: none;
+ }
+ .social ul li a{
+  color:#404040 ;
+  text-decoration: none;
+
+ }
+ /*footer end*/
